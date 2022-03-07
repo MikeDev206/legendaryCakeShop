@@ -16,19 +16,69 @@
 
 	<body>
 
-		<header class="container">
-			<div class="logo">
-				<img src="./assets/img/navigation-logo.png" alt="logo" />
+		<!-- Header -->
+		<header class="header-container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="./assets/img/navigation-logo.png" alt="logo" />
+				</div>
+				<nav>
+					<ul class="menu-bar">
+						<li><a href="#">Estas en Inicio</a></li>
+						<li><a href="./views/pedidos.html">Pedidos</a></li>
+						<li><a href="./views/lista-pedidos.html">Lista de Pedidos</a></li>
+						<li><a href="./views/nosotros.html">Nosotros</a></li>
+						<li><a href="#">Iniciar Sesión</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav>
-				<ul class="navigation-bar">
-					<li><a href="#">Estas en Inicio</a></li>
-					<li><a href="./views/pedidos.html">Pedidos</a></li>
-					<li><a href="./views/lista-pedidos.html">Lista de Pedidos</a></li>
-					<li><a href="./views/nosotros.html">Nosotros</a></li>
-				</ul>
-			</nav>
 		</header>
+
+		<!-- Hero content -->
+
+		<main class="main-container">
+			<div class="hero-slider">
+				<ul class="slider">
+					<li id="slide1">
+						<h2>Pastel de Baileys</h2>
+						<img src="./assets/img/pastel-6.png" alt="pastel-baileys">
+						<button class="order">
+							Ordenar
+						</button>
+					</li>
+					<li id="slide2">
+						<h2>Pastel de Fresa</h2>
+						<img src="./assets/img/pastel-4.png" alt="pastel-fresas">
+						<button class="order">
+							Ordenar
+						</button>
+					</li>
+					<li id="slide3">
+						<h2>Pastel de Zanahoria</h2>
+						<img src="./assets/img/pastel-5.png" alt="pastel-zanahoria">
+						<button class="order">
+							Ordenar
+						</button>
+					</li>
+					<li id="slide4">
+						<h2>Bati-pastel</h2>
+						<img src="./assets/img/batipastel.jpg" alt="bati-pastel">
+						<button class="order">
+							Ordenar
+						</button>
+					</li>
+				</ul>
+				<ul class="controlls">
+					<li><a href="#slide1">1</a></li>
+					<li><a href="#slide2">2</a></li>
+					<li><a href="#slide3">3</a></li>
+					<li><a href="#slide4">4</a></li>
+				</ul>
+			</div>
+		</main>
+
+
+
 
 	</body>
 
