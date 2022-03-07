@@ -36,7 +36,6 @@ body {
 	height: 100%;
 }
 
-
 .menu-bar li {
 	display: inline-block;
 	padding: 10px;
@@ -52,7 +51,6 @@ body {
 .menu-bar li > a {
 	color: #ffd43d;
 	text-decoration: none;
-
 }
 
 .menu-bar li > a:hover {
@@ -93,7 +91,13 @@ body {
 	padding: 10px 0;
 }
 
+.hero-slider > ul.slider .price {
+	color: #2b475e;
+}
 
+.hero-slider > ul.slider .price span {
+	font-size: 10px;
+}
 
 .hero-slider > ul.slider li {
 	position: absolute;
@@ -115,22 +119,22 @@ body {
 }
 
 .hero-slider > ul.slider li:first-child {
-	opacity: 1; 
+	opacity: 1;
 	/* Esto me muestra el primer elemento li */
 }
 
 .hero-slider > ul.slider li:target {
-	opacity: 1; 
+	opacity: 1;
 	/* Esto hace que se muestre el objeto que sobre el que clickeamos */
 }
 
 .order {
 	margin: 10px auto;
-	background-color: #CC0000;
+	background-color: #cc0000;
 	color: #fff;
 	border: 1px solid transparent;
 	border-radius: 10px;
-	padding: 5px ;
+	padding: 5px;
 	cursor: pointer;
 }
 
