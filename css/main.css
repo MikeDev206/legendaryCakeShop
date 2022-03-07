@@ -11,6 +11,15 @@ body {
 	width: 100%;
 }
 
+
+.section-title {
+	font-size: 36px;
+	text-align: center;
+	padding: 0;
+	margin: 2em auto;
+	color: #2b475e;
+}
+
 /* Header */
 
 .header-container {
@@ -156,4 +165,42 @@ body {
 	font-size: 10px;
 	border: 1px solid transparent;
 	border-radius: 100%;
+}
+
+/* Decorations */
+
+.decoration-container {
+	/* clear: both; */
+	width: 100%;
+}
+
+.decoration-cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	max-width: 1000px;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.decoration-card {
+	text-align: center;
+	padding: 1em 50px;
+	width: calc(33.33% - 20px);
+	height: 200px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.decoration-card:hover {
+	transform: scale(1.5);
+}
+
+ .card-text {
+	font-size: 12px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid transparent;
+	border-radius: 10px;
 }
