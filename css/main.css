@@ -147,7 +147,7 @@ body {
 }
 
 .hero-slider > .controlls li a {
-	color: #fff;
+	color: transparent;
 	text-decoration: none;
 	background-color: #2b475e;
 	padding: 30%;
