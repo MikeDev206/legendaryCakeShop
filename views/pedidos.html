@@ -34,61 +34,59 @@
 			</div>
 		</header>
 
-		<p class="frases">Bienvenido(a) a "Master Cake" la mejor Pasteleria de este planeta</p>
-		<br>
-		<h2>Para llevar a cabo su pedido, por favor llene el formulario</h2>
+		<div class="intro-pedidos">
+			<h1 class="frases">Bienvenido(a) a <h2>Legen... wait for it... dary! Cake Shop </h2>
+			</h1>
+			<p>Una pastelería que te brindará una experiencia de sabores, <strong>¡fuera de este mundo!</strong></p>
+			<h2>Para poder brindarte esta experiencia, cuéntanos...</h2>
+		</div>
 
 		<hr>
-		<br>
 
-		<form action="/accion.js" id="form1" method="post">
+		<!-- Formulario -->
+		<legend>¿Cómo quieres tu pastel legendario?</legend>
+		<form class="formulario" action="/accion.js" id="form1" method="post">
 
-			<label for="nombre">Ingrese su nombre</label>
-			<input type="text" id="nombre" name="nombre" class="input">
-			<br><br><br>
-			<label for="telefono">Ingrese su teléfono</label>
-			<input type="tel" id="telefono" name="telefono" class="input">
-			<br><br><br>
-			<label for="correo">Ingrese su correo</label>
-			<input type="email" id="correo" name="correo" class="input">
-			<br><br><br>
-			<label for="descripcion">Ingrese la descripción general del pastel</label>
-			<textarea rows="5" , cols="10" id="descripcion" name="description" class="input"></textarea>
-			<br><br>
-
+			<label for="nombre">Tu nombre completo</label>
+			<input type="text" id="nombre" name="nombre">
+			<label for="telefono">Ingresa tu número celular</label>
+			<input type="tel" id="telefono" name="telefono">
+			<label for="correo">Ingresa tu correo</label>
+			<input type="email" id="correo" name="correo">
+			<label for="descripcion">Describeme tu pastel legendario</label>
+			<textarea rows="5" , cols="10" id="descripcion" name="description"></textarea>
 
 			<section>
-				<h3>Seleccione los sabores que desee</h3>
-				<input type="checkbox" id="sabor1" name="sabor1" value="Vainilla" class="check">
-				<label for="sabor1" class="seleccion">Vainilla</label>
-				<br>
-				<input type="checkbox" id="sabor2" name="sabor2" value="Chocolate" class="check">
-				<label for="sabor2" class="seleccion">Chocolate</label>
-				<br>
-				<input type="checkbox" id="sabor3" name="sabor3" value="Fresa" class="check">
-				<label for="sabor3" class="seleccion">Chocolate</label>
-				<br>
-				<input type="checkbox" id="sabor4" name="sabor4" value="Limón" class="check">
-				<label for="sabor4" class="seleccion">Limón</label>
-				<br>
-				<input type="checkbox" id="sabor5" name="sabor5" value="Oreo" class="check">
-				<label for="sabor5" class="seleccion">Oreo</label>
-				<br>
-				<input type="checkbox" id="sabor6" name="sabor6" value="Café" class="check">
-				<label for="sabor6" class="seleccion">Café</label>
-				<br>
-				<input type="checkbox" id="sabor7" name="sabor7" value="Moka" class="check">
-				<label for="sabor7" class="seleccion">Moka</label>
-				<br>
-				<input type="checkbox" id="sabor8" name="sabor8" value="Dulce_de_leche" class="check">
-				<label for="sabor8" class="seleccion">Dulce de leche</label>
-				<br>
-				<input type="checkbox" id="sabor9" name="sabor9" value="Coco" class="check">
-				<label for="sabor9" class="seleccion">Coco</label>
-				<br>
-				<input type="checkbox" id="sabor10" name="sabor10" value="Tres_leches" class="check">
-				<label for="sabor10" class="seleccion">Tres leches</label>
-				<br>
+				<h3>Elige de que vas a querer tu pastel/h3>
+					<input type="checkbox" id="sabor1" name="sabor1" value="Baileys" class="check">
+					<label for="sabor1" class="seleccion">Baileys</label>
+					<br>
+					<input type="checkbox" id="sabor2" name="sabor2" value="Batipastel" class="check">
+					<label for="sabor2" class="seleccion">Batipastel (Cheescake con Rompope)</label>
+					<br>
+					<input type="checkbox" id="sabor3" name="sabor3" value="Cheesecake_de_Guayaba" class="check">
+					<label for="sabor3" class="seleccion">Cheescake de Guayaba</label>
+					<br>
+					<input type="checkbox" id="sabor4" name="sabor4" value="Choconuez" class="check">
+					<label for="sabor4" class="seleccion">Choconuez</label>
+					<br>
+					<input type="checkbox" id="sabor5" name="sabor5" value="Fresas" class="check">
+					<label for="sabor5" class="seleccion">Fresas</label>
+					<br>
+					<input type="checkbox" id="sabor6" name="sabor6" value="Mil_Hojas" class="check">
+					<label for="sabor6" class="seleccion">Mil Hojas</label>
+					<br>
+					<input type="checkbox" id="sabor7" name="sabor7" value="Moka" class="check">
+					<label for="sabor7" class="seleccion">Moka</label>
+					<br>
+					<input type="checkbox" id="sabor8" name="sabor8" value="Tarta_de_Mousse_de_Mango" class="check">
+					<label for="sabor8" class="seleccion">Tarta de Mousse de Mango</label>
+					<br>
+					<input type="checkbox" id="sabor9" name="sabor9" value="Tres_Leches" class="check">
+					<label for="sabor9" class="seleccion">Tres Leches</label>
+					<br>
+					<input type="checkbox" id="sabor10" name="sabor10" value="Zanahoria" class="check">
+					<label for="sabor10" class="seleccion">Zanahoria</label>
 			</section>
 
 			<section class="selec2">
@@ -98,47 +96,40 @@
 				<input type="radio" id="mediano" name="tamaño" value="Mediano" class="check">
 				<label for="mediano" class="seleccion">Mediano (Med)</label><br>
 				<input type="radio" id="chico" name="tamaño" value="Chico" class="check">
-				<label for="chico" class="seleccion">Chico (Ch)</label><br><br>
+				<label for="chico" class="seleccion">Chico</label><br><br>
 			</section>
 
 			<section class="selec3">
 				<h3>Seleccione los adorno que desee</h3>
-				<input type="checkbox" id="adorno1" name="adorno1" value="Cobertura_chocolate" class="check">
-				<label for="adorno1" class="seleccion">Cobertura de chocolate</label>
+				<input type="checkbox" id="adorno1" name="adorno1" value="Betun" class="check">
+				<label for="adorno1" class="seleccion">Betún</label>
 				<br>
-				<input type="checkbox" id="adorno2" name="adorno2" value="Fondant_malvavisco" class="check">
-				<label for="adorno2" class="seleccion">Fondant de base de malvavisco</label>
+				<input type="checkbox" id="adorno2" name="adorno2" value="Brillantina" class="check">
+				<label for="adorno2" class="seleccion">Brillantinao</label>
 				<br>
-				<input type="checkbox" id="adorno3" name="adorno3" value="Fondant_chocolate" class="check">
-				<label for="adorno3" class="seleccion">Fondant de chocolate</label>
+				<input type="checkbox" id="adorno3" name="adorno3" value="Chocolate" class="check">
+				<label for="adorno3" class="seleccion">Chocolate</label>
 				<br>
-				<input type="checkbox" id="adorno4" name="adorno4" value="Fondant_chocolate_blanco" class="check">
-				<label for="adorno4" class="seleccion">Fondant de chocolate blanco</label>
+				<input type="checkbox" id="adorno4" name="adorno4" value="Confeti" class="check">
+				<label for="adorno4" class="seleccion">Confeti</label>
 				<br>
-				<input type="checkbox" id="adorno5" name="adorno5" value="Salsa_caramelo" class="check">
-				<label for="adorno5" class="seleccion">Salsa de caramelo</label>
+				<input type="checkbox" id="adorno5" name="adorno5" value="Fondant" class="check">
+				<label for="adorno5" class="seleccion">Fondant</label>
 				<br>
-				<input type="checkbox" id="adorno6" name="sadorno6" value="Betun_vainilla" class="check">
-				<label for="adorno6" class="seleccion">Betún de vainilla</label>
+				<input type="checkbox" id="adorno6" name="sadorno6" value="Fruta" class="check">
+				<label for="adorno6" class="seleccion">Fruta</label>
 				<br>
-				<input type="checkbox" id="adorno7" name="adorno7" value="Betun_chocolate" class="check">
-				<label for="adorno7" class="seleccion">Betún de chocolate</label>
+				<input type="checkbox" id="adorno7" name="adorno7" value="Galleta" class="check">
+				<label for="adorno7" class="seleccion">Galleta</label>
 				<br>
-				<input type="checkbox" id="adorno8" name="adorno8" value="Betun_chocolate" class="check">
-				<label for="adorno8" class="seleccion">Betún de chocolate</label>
+				<input type="checkbox" id="adorno8" name="adorno8" value="Ganache" class="check">
+				<label for="adorno8" class="seleccion">Ganache</label>
 				<br>
-				<input type="checkbox" id="adorno9" name="adorno9" value="Escarchado" class="check">
-				<label for="adorno9" class="seleccion">Escarchado</label>
+				<input type="checkbox" id="adorno9" name="adorno9" value="Mousse" class="check">
+				<label for="adorno9" class="seleccion">Mousse</label>
 				<br>
-				<input type="checkbox" id="adorno10" nsame="adorno10" value="Glaseado" class="check">
-				<label for="adorno10" class="seleccion">Glaseado</label>
-				<br>
-				<input type="checkbox" id="adorno11" name="adorno11" value="Frutas" class="check">
-				<label for="adorno11" class="seleccion">Frutas</label>
-				<br>
-				<input type="checkbox" id="adorno12" name="adorno12" value="Chispas" class="check">
-				<label for="adorno12" class="seleccion">Chispas</label>
-				<br>
+				<input type="checkbox" id="adorno10" nsame="adorno10" value="Ralladura" class="check">
+				<label for="adorno10" class="seleccion">Ralladura</label>
 			</section>
 			<br><br><br>
 			<input type="reset" id="restablecer" name="restablecer" value="Restablecer"><br><br>
