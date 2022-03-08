@@ -11,7 +11,6 @@ body {
 	width: 100%;
 }
 
-
 .section-title {
 	font-size: 36px;
 	text-align: center;
@@ -19,6 +18,8 @@ body {
 	margin: 2em auto;
 	color: #2b475e;
 }
+
+
 
 /* Header */
 
@@ -198,9 +199,97 @@ body {
 	transform: scale(1.5);
 }
 
- .card-text {
+.card-text {
 	font-size: 12px;
 	background-color: rgba(255, 255, 255, 0.5);
 	border: 1px solid transparent;
 	border-radius: 10px;
+}
+
+
+
+/* Footer */
+
+
+/* footer {
+	
+} */
+
+.footer-container {
+	min-height: calc(100vh - 100px - 400px);
+	height: auto;
+	width: 100%;
+	background-color: #2b475e;
+	margin: 1em auto 0 auto;
+}
+
+.footer-content-container {
+	max-width: 1600px;
+	width: 100%;
+	color: #fff;
+	/* display: flex;
+	flex-direction: column; */
+}
+
+.sigue-nuestro-rastro {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	padding: 2em;
+}
+
+.sigue-nuestro-rastro h3 {
+	font-size: 24px;
+}
+
+.redes-container > a img {
+	width: 60px;
+	height: auto;
+	margin: 10px;
+	padding: 10px 5%;
+}
+
+.navigation-items {
+	max-width: 800px;
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 600px;
+}
+
+.footer-nav li {
+	list-style: none;
+	font-size: 24px;
+}
+
+.footer-nav li:hover {
+	transform: scale(1.2);
+	color: #ffd43d;
+}
+
+.footer-nav li a {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.rights-reserved {
+	text-align: center;
+	margin: 2em auto 0 auto;
+	padding: 10px 0 0 0;
+}
+
+.footer-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-logo img {
+	width: auto;
+	height: 200px;
+	padding-top: 1em;
 }
