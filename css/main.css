@@ -242,6 +242,10 @@ body {
 	font-size: 24px;
 }
 
+.redes-container a {
+	text-decoration: none;
+}
+
 .redes-container > a img {
 	width: 60px;
 	height: auto;
